@@ -1,4 +1,4 @@
-package com.cursor.wh2robot.robot.planet;
+package com.cursor.wh2robot.planet;
 
 public class PlanetArrival {
 

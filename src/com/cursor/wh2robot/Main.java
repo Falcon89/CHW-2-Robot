@@ -3,7 +3,6 @@ package com.cursor.wh2robot;
 import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV1;
 import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV2;
 import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV3;
-import com.cursor.wh2robot.robot.planet.PlanetArrival;
 import com.cursor.wh2robot.utils.RobotUtils;
 
 public class Main {

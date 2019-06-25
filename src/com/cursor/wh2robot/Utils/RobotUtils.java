@@ -3,7 +3,7 @@ package com.cursor.wh2robot.utils;
 import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV1;
 import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV2;
 import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV3;
-import com.cursor.wh2robot.robot.planet.PlanetArrival;
+import com.cursor.wh2robot.planet.PlanetArrival;
 
 public class RobotUtils {
     RandomUtils randomUtils = new RandomUtils();
@@ -19,7 +19,7 @@ public class RobotUtils {
         robotJohnnyMnemonicV1.armor();
         robotJohnnyMnemonicV1.shootForEveryone();
         planetArrival.getName();
-        randomUtils.numberRandom();
+        randomUtils.generateRandomNumb();
     }
 
     public void robotUtils(RobotJohnnyMnemonicV2 robotJohnnyMnemonicV2) {
@@ -31,7 +31,7 @@ public class RobotUtils {
         robotJohnnyMnemonicV2.talk();
         robotJohnnyMnemonicV2.armor();
         robotJohnnyMnemonicV2.shootForEveryone();
-        randomUtils.numberRandom();
+        randomUtils.generateRandomNumb();
     }
 
     public void robotUtils(RobotJohnnyMnemonicV3 robotJohnnyMnemonicV3) {
@@ -43,7 +43,7 @@ public class RobotUtils {
         robotJohnnyMnemonicV3.talk();
         robotJohnnyMnemonicV3.armor();
         robotJohnnyMnemonicV3.shootForEveryone();
-        randomUtils.numberRandom();
-        randomUtils.planetRandom();
+        randomUtils.generateRandomNumb();
+        randomUtils.generateRandomPlen();
     }
 }
