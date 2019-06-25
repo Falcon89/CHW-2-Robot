@@ -3,5 +3,5 @@
 /out
 *.iml
 **.iml
-*/production/
-*.production
+CHW-2-Robot/production
+CHW-2-Robot/*.production
