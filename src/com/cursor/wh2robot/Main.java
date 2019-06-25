@@ -8,6 +8,7 @@ import com.cursor.wh2robot.utils.RobotUtils;
 
 public class Main {
     public static void main(String[] args) {
+
         RobotUtils robotUtils = new RobotUtils();
 
         RobotJohnnyMnemonicV1 robotJohnnyMnemonicV1 = new RobotJohnnyMnemonicV1("Sentinal", 80, 830, "default");
@@ -18,6 +19,5 @@ public class Main {
 
         RobotJohnnyMnemonicV3 robotJohnnyMnemonicV3 = new RobotJohnnyMnemonicV3("Prime", 110, 900, "default");
         robotUtils.robotUtils(robotJohnnyMnemonicV3);
-
     }
 }
