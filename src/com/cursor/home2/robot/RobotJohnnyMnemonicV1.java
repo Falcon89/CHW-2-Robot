@@ -1,8 +1,10 @@
-package com.cursor.home2.robot;
+package cursor.home2.robot;
 
 public class RobotJohnnyMnemonicV1 implements RobotCapabilities {
-    public static final String VERSION = "Johnny Mnemonic Version";
-    public static final String PROTECTED_TITANIUM = "Protection from titanium armor 100%";
+    public static final String VERSION = "Johnny Mnemonic Version ";
+    public static final String PROTECTED_TITANIUM = "Protection from titanium armor 100% ";
+    public static final String CONECTED_5G = "CONECTED_USE_5G ";
+    public static final Integer BATTERY_MA = Integer.valueOf("20000");
     private String name;
     private int weight;
     private int heignt;

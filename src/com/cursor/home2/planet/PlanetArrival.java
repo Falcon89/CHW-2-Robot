@@ -1,4 +1,4 @@
-package com.cursor.home2.planet;
+package cursor.home2.planet;
 
 public class PlanetArrival {
 

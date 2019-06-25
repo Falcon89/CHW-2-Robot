@@ -1,7 +1,5 @@
-package com.cursor.home2.utils;
-
-import com.cursor.home2.planet.PlanetArrival;
-
+package cursor.home2.utils;
+import cursor.home2.planet.PlanetArrival;
 import java.util.Random;
 
 public class RandomUtils {

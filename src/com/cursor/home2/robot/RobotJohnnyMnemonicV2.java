@@ -1,9 +1,6 @@
-package com.cursor.home2.robot;
+package cursor.home2.robot;
 
-public class RobotJohnnyMnemonicV2 extends RobotJohnnyMnemonicV1 implements RobotCapabilities {
-    public static final String VERSION = "Johnny Mnemonic Version";
-    public static final String PROTECTED_TITANIUM = "Protection from titanium armor 100%";
-    public static final String CONECTED_5G = "CONECTED_USE_5G";
+public class RobotJohnnyMnemonicV2 extends RobotJohnnyMnemonicV1 {
 
     public RobotJohnnyMnemonicV2() {
     }
@@ -11,6 +8,7 @@ public class RobotJohnnyMnemonicV2 extends RobotJohnnyMnemonicV1 implements Robo
     public RobotJohnnyMnemonicV2(String name, int weight, int heignt, String adaptation) {
         super(name, weight, heignt, adaptation);
     }
+
     @Override
     public void move() {
         System.out.println("Status:" + "The robot move");
@@ -35,8 +33,6 @@ public class RobotJohnnyMnemonicV2 extends RobotJohnnyMnemonicV1 implements Robo
     public void shootForEveryone() {
         System.out.println("Status" + " The robot shoots on all people");
     }
-
-
 
 
 }

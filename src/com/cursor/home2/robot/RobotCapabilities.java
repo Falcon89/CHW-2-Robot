@@ -1,4 +1,4 @@
-package com.cursor.home2.robot;
+package cursor.home2.robot;
 
 public interface RobotCapabilities {
     void move();

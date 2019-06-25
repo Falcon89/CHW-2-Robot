@@ -1,17 +1,14 @@
-package com.cursor.home2.robot;
+package cursor.home2.robot;
 
-public class RobotJohnnyMnemonicV3 extends RobotJohnnyMnemonicV1 implements RobotCapabilities {
-    public static final String VERSION = "Johnny Mnemonic Version ";
-    public static final String PROTECTED_TITANIUM = "Protection from titanium armor 100% ";
-    public static final String CONECTED_5G = "CONECTED_USE_5G ";
-    public static final Integer BATTERY_MA = Integer.valueOf("20000");
+public class RobotJohnnyMnemonicV3 extends RobotJohnnyMnemonicV1 {
 
     public RobotJohnnyMnemonicV3() {
     }
 
     public RobotJohnnyMnemonicV3(String name, int weight, int heignt, String adaptation) {
-        super(name, weight, heignt,adaptation);
+        super(name, weight, heignt, adaptation);
     }
+
     @Override
     public void move() {
         System.out.println("Status:" + "The robot move");
