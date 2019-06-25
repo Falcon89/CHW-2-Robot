@@ -1,4 +1,5 @@
 .idea
 /src/.idea/
 /out
-home2.iml
+*.iml
+**.iml
