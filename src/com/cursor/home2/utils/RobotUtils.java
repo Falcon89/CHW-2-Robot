@@ -19,7 +19,7 @@ public class RobotUtils {
         robotJohnnyMnemonicV1.armor();
         robotJohnnyMnemonicV1.shootForEveryone();
         planetArrival.getName();
-        randomUtils.generateRandomNumb();
+        randomUtils.generateRandomNumber();
     }
 
     public void robotUtils(RobotJohnnyMnemonicV2 robotJohnnyMnemonicV2) {
@@ -31,7 +31,7 @@ public class RobotUtils {
         robotJohnnyMnemonicV2.talk();
         robotJohnnyMnemonicV2.armor();
         robotJohnnyMnemonicV2.shootForEveryone();
-        randomUtils.generateRandomNumb();
+        randomUtils.generateRandomNumber();
     }
 
     public void robotUtils(RobotJohnnyMnemonicV3 robotJohnnyMnemonicV3) {
@@ -43,7 +43,7 @@ public class RobotUtils {
         robotJohnnyMnemonicV3.talk();
         robotJohnnyMnemonicV3.armor();
         robotJohnnyMnemonicV3.shootForEveryone();
-        randomUtils.generateRandomNumb();
-        randomUtils.generateRandomPlen();
+        randomUtils.generateRandomNumber();
+        randomUtils.generateRandomPlenet();
     }
 }

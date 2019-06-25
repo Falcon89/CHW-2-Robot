@@ -8,9 +8,9 @@ public class RandomUtils {
     PlanetArrival planetArrival = new PlanetArrival();
 
     /**
-     * Create method generateRandomNumb, on condition of task
+     * Create method generateRandomNumber, on condition of task
      */
-    public static void generateRandomNumb() {
+    public static void generateRandomNumber() {
         int min = 1;
         int max = 12;
         int minmax = max - min;
@@ -33,9 +33,9 @@ public class RandomUtils {
     }
 
     /**
-     * Create method generateRandomPlen, If the aliens stole the adaptation to the planet
+     * Create method generateRandomPlenet, If the aliens stole the adaptation to the planet
      */
-    public void generateRandomPlen() {
+    public void generateRandomPlenet() {
         String alphabet = "ABC";
         Random letter = new Random();
         Character randomPlanetLatter = alphabet.charAt(letter.nextInt(alphabet.length()));
