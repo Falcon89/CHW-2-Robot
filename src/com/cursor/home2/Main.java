@@ -12,12 +12,12 @@ public class Main {
         RobotUtils robotUtils = new RobotUtils();
 
         RobotJohnnyMnemonicV1 robotJohnnyMnemonicV1 = new RobotJohnnyMnemonicV1("Sentinal", 80, 830, "default");
-        robotUtils.capabilitiesRobotUtilsOne(robotJohnnyMnemonicV1);
+        robotUtils.printRobotActionsPlanetInfoOne(robotJohnnyMnemonicV1);
 
         RobotJohnnyMnemonicV2 robotJohnnyMnemonicV2 = new RobotJohnnyMnemonicV2("Ironhide", 104, 843, "default");
-        robotUtils.capabilitiesRobotUtilsTwo(robotJohnnyMnemonicV2);
+        robotUtils.printRobotActionsPlanetInfoTwo(robotJohnnyMnemonicV2);
 
         RobotJohnnyMnemonicV3 robotJohnnyMnemonicV3 = new RobotJohnnyMnemonicV3("Prime", 110, 900, "default");
-        robotUtils.capabilitiesRobotUtilsThree(robotJohnnyMnemonicV3);
+        robotUtils.printRobotActionsPlanetInfoThree(robotJohnnyMnemonicV3);
     }
 }

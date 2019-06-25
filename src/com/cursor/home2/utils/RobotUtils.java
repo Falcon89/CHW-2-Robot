@@ -10,7 +10,7 @@ public class RobotUtils {
     RandomUtils randomUtils = new RandomUtils();
     PlanetArrival planetArrival = new PlanetArrival();
 
-    public void capabilitiesRobotUtilsOne(RobotJohnnyMnemonicV1 robotJohnnyMnemonicV1) {
+    public void printRobotActionsPlanetInfoOne(RobotJohnnyMnemonicV1 robotJohnnyMnemonicV1) {
         System.out.println(robotJohnnyMnemonicV1.getName());
         System.out.println(robotJohnnyMnemonicV1.getWeight());
         System.out.println(robotJohnnyMnemonicV1.getHeignt());
@@ -23,7 +23,7 @@ public class RobotUtils {
         randomUtils.generateRandomNumber();
     }
 
-    public void capabilitiesRobotUtilsTwo(RobotJohnnyMnemonicV2 robotJohnnyMnemonicV2) {
+    public void printRobotActionsPlanetInfoTwo(RobotJohnnyMnemonicV2 robotJohnnyMnemonicV2) {
         System.out.println(robotJohnnyMnemonicV2.getName());
         System.out.println(robotJohnnyMnemonicV2.getWeight());
         System.out.println(robotJohnnyMnemonicV2.getHeignt());
@@ -35,7 +35,7 @@ public class RobotUtils {
         randomUtils.generateRandomNumber();
     }
 
-    public void capabilitiesRobotUtilsThree(RobotJohnnyMnemonicV3 robotJohnnyMnemonicV3) {
+    public void printRobotActionsPlanetInfoThree(RobotJohnnyMnemonicV3 robotJohnnyMnemonicV3) {
         System.out.println(robotJohnnyMnemonicV3.getName());
         System.out.println(robotJohnnyMnemonicV3.getWeight());
         System.out.println(robotJohnnyMnemonicV3.getHeignt());
