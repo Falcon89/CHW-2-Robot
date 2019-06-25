@@ -3,5 +3,5 @@
 /out
 *.iml
 **.iml
-CHW-2-Robot/production
 CHW-2-Robot/*.production
+CHW-2-Robot/production/src/cursor/home2
