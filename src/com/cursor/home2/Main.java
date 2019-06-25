@@ -1,9 +1,9 @@
-package com.cursor.wh2robot;
+package com.cursor.home2;
 
-import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV1;
-import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV2;
-import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV3;
-import com.cursor.wh2robot.utils.RobotUtils;
+import com.cursor.home2.robot.RobotJohnnyMnemonicV1;
+import com.cursor.home2.robot.RobotJohnnyMnemonicV2;
+import com.cursor.home2.robot.RobotJohnnyMnemonicV3;
+import com.cursor.home2.utils.RobotUtils;
 
 public class Main {
     public static void main(String[] args) {

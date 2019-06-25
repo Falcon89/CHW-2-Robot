@@ -1,6 +1,6 @@
-package com.cursor.wh2robot.utils;
+package com.cursor.home2.utils;
 
-import com.cursor.wh2robot.planet.PlanetArrival;
+import com.cursor.home2.planet.PlanetArrival;
 
 import java.util.Random;
 

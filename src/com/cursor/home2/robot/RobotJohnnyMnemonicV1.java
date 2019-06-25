@@ -1,4 +1,4 @@
-package com.cursor.wh2robot.robot;
+package com.cursor.home2.robot;
 
 public class RobotJohnnyMnemonicV1 implements RobotCapabilities {
     public static final String VERSION = "Johnny Mnemonic Version";

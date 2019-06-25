@@ -1,9 +1,9 @@
-package com.cursor.wh2robot.utils;
+package com.cursor.home2.utils;
 
-import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV1;
-import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV2;
-import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV3;
-import com.cursor.wh2robot.planet.PlanetArrival;
+import com.cursor.home2.robot.RobotJohnnyMnemonicV1;
+import com.cursor.home2.robot.RobotJohnnyMnemonicV2;
+import com.cursor.home2.robot.RobotJohnnyMnemonicV3;
+import com.cursor.home2.planet.PlanetArrival;
 
 public class RobotUtils {
     RandomUtils randomUtils = new RandomUtils();
