@@ -18,6 +18,7 @@ public class RobotJohnnyMnemonicV1 implements RobotCapabilities {
         this.adaptation = adaptation;
     }
 
+
     @Override
     public void move() {
         System.out.println("Status:" + "The robot move");
