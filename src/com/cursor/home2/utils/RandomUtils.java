@@ -33,9 +33,9 @@ public class RandomUtils {
     }
 
     /**
-     * Create method generateRandomPlenet, If the aliens stole the adaptation to the planet
+     * Create method generateRandomPlanet, If the aliens stole the adaptation to the planet
      */
-    public void generateRandomPlenet() {
+    public void generateRandomPlanet() {
         String alphabet = "ABC";
         Random letter = new Random();
         Character randomPlanetLatter = alphabet.charAt(letter.nextInt(alphabet.length()));

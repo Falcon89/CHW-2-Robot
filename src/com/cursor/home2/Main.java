@@ -11,12 +11,12 @@ public class Main {
         RobotUtils robotUtils = new RobotUtils();
 
         RobotJohnnyMnemonicV1 robotJohnnyMnemonicV1 = new RobotJohnnyMnemonicV1("Sentinal", 80, 830, "default");
-        robotUtils.robotUtils(robotJohnnyMnemonicV1);
+        robotUtils.robotVersionOne(robotJohnnyMnemonicV1);
 
         RobotJohnnyMnemonicV2 robotJohnnyMnemonicV2 = new RobotJohnnyMnemonicV2("Ironhide", 104, 843, "default");
-        robotUtils.robotUtils(robotJohnnyMnemonicV2);
+        robotUtils.robotVersionTwo(robotJohnnyMnemonicV2);
 
         RobotJohnnyMnemonicV3 robotJohnnyMnemonicV3 = new RobotJohnnyMnemonicV3("Prime", 110, 900, "default");
-        robotUtils.robotUtils(robotJohnnyMnemonicV3);
+        robotUtils.robotVersionThree(robotJohnnyMnemonicV3);
     }
 }
