@@ -1,10 +1,10 @@
 package com.cursor.wh2robot.robot;
 
 public class RobotJohnnyMnemonicV3 extends RobotJohnnyMnemonicV1 implements RobotCapabilities {
-    private static final String VERSION = "Johnny Mnemonic Version ";
-    private static final String PROTECTED_TITANIUM = "Protection from titanium armor 100% ";
-    private static final String CONECTED_5G = "CONECTED_USE_5G ";
-    private static final Integer BATTERY_MA = Integer.valueOf("20000");
+    public static final String VERSION = "Johnny Mnemonic Version ";
+    public static final String PROTECTED_TITANIUM = "Protection from titanium armor 100% ";
+    public static final String CONECTED_5G = "CONECTED_USE_5G ";
+    public static final Integer BATTERY_MA = Integer.valueOf("20000");
 
     public RobotJohnnyMnemonicV3() {
     }

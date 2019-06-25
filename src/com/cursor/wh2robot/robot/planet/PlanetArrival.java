@@ -1,7 +1,6 @@
 package com.cursor.wh2robot.robot.planet;
 
-
-public class PlanetArrival  {
+public class PlanetArrival {
 
     private String name;
 

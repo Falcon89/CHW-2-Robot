@@ -1,4 +1,4 @@
-package com.cursor.wh2robot.Utils;
+package com.cursor.wh2robot.utils;
 
 import com.cursor.wh2robot.robot.planet.PlanetArrival;
 
@@ -8,9 +8,9 @@ public class RandomUtils {
     PlanetArrival planetArrival = new PlanetArrival();
 
     /**
-     * Create method generatorNumber, on condition of task
+     * Create method numberRandom, on condition of task
      */
-    public static void generatorNumber() {
+    public static void numberRandom() {
         int min = 1;
         int max = 12;
         int minmax = max - min;
@@ -33,9 +33,9 @@ public class RandomUtils {
     }
 
     /**
-     * Create method randomPlanet, If the aliens stole the adaptation to the planet
+     * Create method planetRandom, If the aliens stole the adaptation to the planet
      */
-    public void randomPlanet() {
+    public void planetRandom() {
         String alphabet = "ABC";
         Random letter = new Random();
         Character randomPlanetLatter = alphabet.charAt(letter.nextInt(alphabet.length()));

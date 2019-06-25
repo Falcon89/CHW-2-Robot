@@ -1,15 +1,15 @@
-package com.cursor.wh2robot.Utils;
+package com.cursor.wh2robot.utils;
 
 import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV1;
 import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV2;
 import com.cursor.wh2robot.robot.RobotJohnnyMnemonicV3;
 import com.cursor.wh2robot.robot.planet.PlanetArrival;
 
-public class AutoCompletionUtils {
+public class RobotUtils {
     RandomUtils randomUtils = new RandomUtils();
     PlanetArrival planetArrival = new PlanetArrival();
 
-    public void autoCompletionUtils(RobotJohnnyMnemonicV1 robotJohnnyMnemonicV1) {
+    public void robotUtils(RobotJohnnyMnemonicV1 robotJohnnyMnemonicV1) {
         System.out.println(robotJohnnyMnemonicV1.getName());
         System.out.println(robotJohnnyMnemonicV1.getWeight());
         System.out.println(robotJohnnyMnemonicV1.getHeignt());
@@ -19,10 +19,10 @@ public class AutoCompletionUtils {
         robotJohnnyMnemonicV1.armor();
         robotJohnnyMnemonicV1.shootForEveryone();
         planetArrival.getName();
-        randomUtils.generatorNumber();
+        randomUtils.numberRandom();
     }
 
-    public void autoCompletionUtils(RobotJohnnyMnemonicV2 robotJohnnyMnemonicV2) {
+    public void robotUtils(RobotJohnnyMnemonicV2 robotJohnnyMnemonicV2) {
         System.out.println(robotJohnnyMnemonicV2.getName());
         System.out.println(robotJohnnyMnemonicV2.getWeight());
         System.out.println(robotJohnnyMnemonicV2.getHeignt());
@@ -31,11 +31,10 @@ public class AutoCompletionUtils {
         robotJohnnyMnemonicV2.talk();
         robotJohnnyMnemonicV2.armor();
         robotJohnnyMnemonicV2.shootForEveryone();
-        randomUtils.generatorNumber();
+        randomUtils.numberRandom();
     }
 
-    public void autoCompletionUtils(RobotJohnnyMnemonicV3 robotJohnnyMnemonicV3) {
-        System.out.println("*******************************");
+    public void robotUtils(RobotJohnnyMnemonicV3 robotJohnnyMnemonicV3) {
         System.out.println(robotJohnnyMnemonicV3.getName());
         System.out.println(robotJohnnyMnemonicV3.getWeight());
         System.out.println(robotJohnnyMnemonicV3.getHeignt());
@@ -44,8 +43,7 @@ public class AutoCompletionUtils {
         robotJohnnyMnemonicV3.talk();
         robotJohnnyMnemonicV3.armor();
         robotJohnnyMnemonicV3.shootForEveryone();
-        randomUtils.generatorNumber();
-
-        randomUtils.randomPlanet();
+        randomUtils.numberRandom();
+        randomUtils.planetRandom();
     }
 }

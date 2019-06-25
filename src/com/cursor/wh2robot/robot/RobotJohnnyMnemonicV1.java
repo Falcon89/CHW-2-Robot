@@ -1,8 +1,8 @@
 package com.cursor.wh2robot.robot;
 
 public class RobotJohnnyMnemonicV1 implements RobotCapabilities {
-    private static final String VERSION = "Johnny Mnemonic Version";
-    private static final String PROTECTED_TITANIUM = "Protection from titanium armor 100%";
+    public static final String VERSION = "Johnny Mnemonic Version";
+    public static final String PROTECTED_TITANIUM = "Protection from titanium armor 100%";
     private String name;
     private int weight;
     private int heignt;
@@ -17,7 +17,6 @@ public class RobotJohnnyMnemonicV1 implements RobotCapabilities {
         this.heignt = heignt;
         this.adaptation = adaptation;
     }
-
 
     @Override
     public void move() {
